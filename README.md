@@ -1,4 +1,4 @@
-# sicredi
+# Sicredi
 
 Passos para rodar o projeto
 
