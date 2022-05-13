@@ -1,0 +1,111 @@
+.iconeSeta{
+    color: #44a613;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.inputCNPJ{
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+    border-bottom: solid 2px #44a613;
+}
+
+.buttonAbrirConta{
+    background-color: #44a613;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.iconSearch{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    margin-right: 20px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+.colRight h2{
+    color: #44a613;
+}
+
+.colRight h6{
+    color: rgb(150, 148, 148);
+    margin-left: 25px;
+}
+
+.colRight h5{
+    color: rgb(150, 148, 148);
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #44a613;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #44a613;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-right .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  @media screen and (min-width: 760px) {
+    .navbar-nav{
+        margin-left: 300px;
+    }
+
+
+}
